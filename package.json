@@ -1,0 +1,17 @@
+{
+  "name": "awsp-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass source/scss:build/scss --style compressed",
+    "scss": "sass --watch source/scss:build/scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
